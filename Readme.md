@@ -1,4 +1,4 @@
-# 📌 Product Purchase Predictions: Machine Learning for Retail Demand
+# Product Purchase Predictions: Machine Learning for Retail Demand
 
 <p align="center">
   <img src="imgs/Product Purchase Predictions.png" alt="PPP" width="300">
