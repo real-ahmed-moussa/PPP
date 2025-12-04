@@ -78,3 +78,6 @@ jupyter notebook Product_Purchase_Predictions.ipynb
 
 ## 📝 License
 This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
+
+This project is licensed under the MIT License.
+© 2025 Dr. Ahmed Moussa
