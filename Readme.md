@@ -46,7 +46,7 @@ Enable smarter **inventory planning, procurement, and targeted promotions** by a
  ┣ 📂 imgs
  ┣ 📜 Product_Purchase_Predictions.ipynb    # Main notebook (preprocessing, training, evaluation, visualization)
  ┣ 📜 training_testing_loss.png
- ┗ README.md
+ ┗ 📜 README.md
 </pre>
 
 
