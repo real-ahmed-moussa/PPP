@@ -6,6 +6,7 @@
 
 > A sequence-modeling pipeline that forecasts **per-product daily purchases** using a **CNN+LSTM** architecture over lagged and calendar features—built with PyTorch for scalable, multi-output regression.
 
+---
 
 ## 📖 Overview
 - This project implements a **time-series forecasting** pipeline to predict **next-day demand** for multiple products simultaneously (multi-output regression).
@@ -13,10 +14,12 @@
 - A **CNN+LSTM** network first applies **1D convolutions across feature channels** to learn local patterns, then an **LSTM** captures temporal dependencies, and a final dense layer outputs predictions for **all products at once**.
 - The model is trained with **MSE loss** and **Adam** optimizer; performance is evaluated with **MAE/MSE** (including per-product MAE).
 
+---
 
 ## 🏢 Business Impact
 Enable smarter **inventory planning, procurement, and targeted promotions** by anticipating product-level demand. Multi-output forecasts reduce operational risk, improve stock availability, and support staffing decisions—store by store, day by day.
 
+---
 
 ## 🚀 Features
 ✅ **Multi-Output Forecasting:** Predicts next-day demand for N products in one forward pass.  
@@ -26,6 +29,7 @@ Enable smarter **inventory planning, procurement, and targeted promotions** by a
 ✅ **GPU-Ready Training:** Seamless CPU/GPU execution with PyTorch `.to(device)`.  
 ✅ **Clear Evaluation:** Training vs. testing loss curves.  
 
+---
 
 ## ⚙️ Tech Stack
 | Technology        | Purpose                                                   |
@@ -35,10 +39,12 @@ Enable smarter **inventory planning, procurement, and targeted promotions** by a
 | `PyTorch`         | CNN+LSTM modeling, training loop, DataLoader pipelines    |
 | `matplotlib`      | Training curves and performance visualizations            |
 
+---
 
 ## Training vs. Testing Loss Curve
 ![Training vs. Testing Loss Curve](imgs/training_testing_loss.png)
 
+---
 
 ## 📂 Project Structure
 <pre>
@@ -49,6 +55,7 @@ Enable smarter **inventory planning, procurement, and targeted promotions** by a
  ┗ 📜 README.md
 </pre>
 
+---
 
 ## 🛠️ Installation
 1️⃣ **Clone the Repository**
@@ -68,6 +75,7 @@ source venv/bin/activate
 jupyter notebook Product_Purchase_Predictions.ipynb
 </pre>
 
+---
 
 ## 📊 Results
 - Built **lagged + calendar** features and windowed sequences (`seq_len = 3`).
@@ -75,6 +83,7 @@ jupyter notebook Product_Purchase_Predictions.ipynb
 - Reported **per-product MAE** and overall error metrics for multi-output predictions.
 - Produced artifacts: loss curve.
 
+---
 
 ## 📝 License
 This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
